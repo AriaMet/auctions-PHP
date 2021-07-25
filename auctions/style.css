@@ -1,0 +1,48 @@
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0; /* external space*/
+	padding: 0; /*internal space */
+	color: #000000; /*letters: black*/
+	background-color: #990000; /*background: red*/
+	font-size: 14px;
+}
+
+table{
+	border-collapse: collapse; 
+	border: 1px solid grey;
+}
+
+th, td{
+	border: 1px solid grey;
+	padding: 2px 5px 2px 5px;	
+}
+
+#header {
+	color: white;
+	padding: 0 50px; /* 0 px από top και bottom, 50px από left και right*/
+	height: 85px;
+	background-color: #990000;
+}
+
+#menu a{
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#menu a:hover {
+  background-color: #ff8080;
+}
+
+#main {
+	padding: 25px 50px;
+	min-height: 400px; 
+	background-color: white;
+}
+
+#footer{
+	color: white;
+	background-color: #990000;
+	padding: 10px 50px ;
+}
